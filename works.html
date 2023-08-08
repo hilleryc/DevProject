@@ -5,136 +5,156 @@
     <title>My Projects</title>
 </head>
 <body>
-    <div class="header" >
-        <h1>Projects I've Done</h1>
-        <p>These are the projects that I have worked on and/or completed in my time at Purdue Univeristy and the Envision Center.</p>
-    </div>
-    <div class="projects" >
-        <h2>Listening to Visuals (Spring 2022-Present)</h2>
-            <p>
-                This project is about music generation based on chromatic visual input taken from an image or video.
-                The two mediums are linked via emotion labels assigned to different RGB values as well as musical modes.
-                I used a combination of MaxMSP, C, and basic JavaScript to complete the initial prototype of this project.
-            </p>
 
-            </figure>
-        <h2>Sound Design for Animated Wolf Park Logo (February 2023-April 2023)</h2>
-            <p>
-                From contact through a Purdue professor of mine I worked with a Lafayette conservation facility, Wolf Park, 
-                to add sound to an animated logo that they had created to be used for media for the park. I utilized wolf 
-                howls that were provided from the park and additional personal foley recordings taken on a Zoom H5 recorder 
-                and cleaned/changed them in iZotope to remove unwanted sound. I added and edited the recordings to fit to the 
-                animation in Reaper.
-            </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3jFx6E0Dvn4" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-                picture-in-picture; web-share" allowfullscreen>
-            </iframe>
-        <h2>Senior Design: Solar Powered Backpack for the Unhoused (Janurary 2023-May 2023)</h2>
-            <p>
-                For my senior design project in Multidisciplinary Engineering I collaborated with three other students
-                to find a problem frame in the space of the unhoused to contribute an engineering solution to. The group 
-                research and talked with local organizations and completed a simplistic solar power circuit design to add 
-                into the backpack to charge digital devices. 
-            </p>
-        <h2>2D Game Audio (2021)</h2>
-            <p>
-                At the Envision Center is where I learned a lot of the dialogue editing and sound design that I currently know.
-                During the course of learning from another student there, I completed a number of sounds for a simplistic 
-                2D platformer in Reaper. These included the player jumping, running over different surfaces, taking damage, 
-                shooting, dieing, picking up health, enemy taking damage, enemy dieing, destroying a block, a block hitting 
-                the ground, and the level end door to get to the next level. 
-            </p>
-            
-                <br>
-                    Destroying a Block:
-                </br>
-                <audio controls>
-                    <source src="media/block_destroyed.wav">
-                </audio>
-                <br>
-                    Block Hitting Ground:
-                </br>
-                <audio controls>
-                    <source src="media/block_hitting_ground.wav">
-                </audio>
-                <br>
-                    Enemy Dieing:
-                </br>
-                <audio controls>
-                    <source src="media/enemy_dieing.wav">
-                </audio>
-                <br>
-                    Enemy Taking Damage:
-                </br>
-                <audio controls>
-                    <source src="media/enemy_taking_damage.wav">
-                </audio>
-                <br>
-                    Footstep on Grass:
-                </br>
-                <audio controls>
-                    <source src="media/footstep_grass.wav">
-                </audio>
-                <br>
-                    Footstep on Platform:
-                </br>
-                <audio controls>
-                    <source src="media/footstep_platforms.wav">
-                </audio>
-                <br>
-                    Footstep on Stone:
-                </br>
-                <audio controls>
-                    <source src="media/footstep_stone.wav">
-                </audio>
-                <br>
-                    Going Through the End Level Door:
-                </br>
-                <audio controls>
-                    <source src="media/level_end_door.wav">
-                </audio>
-                <br>
-                    Picking up Health:
-                </br>
-                <audio controls>
-                    <source src="media/picking_up_health.wav">
-                </audio>
-                <br>
-                    Player Dieing:
-                </br>
-                <audio controls>
-                    <source src="media/player_dieing.wav">
-                </audio>
-                <br>
-                    Player Jumping:
-                </br>
-                <audio controls>
-                    <source src="media/player_jump.wav">
-                </audio>
-                <br>
-                    Player Taking Damage:
-                </br>
-                <audio controls>
-                    <source src="media/player_taking_damage.wav">
-                </audio>
+    <header>
+        <div class="contain">
 
-            
-        <h2>Geiger Counter (Fall 2022)</h2>
-            <p>
-                At the Envision Center, one of the projects that I worked on towards the end of my time working there was 
-                updating the previous sound that they had for a project utilizing a Geiger Counter. The previous sound was
-                noted to not be as accurate and did not sound as good as it could. To update this sound, I loaded the previous
-                one into Reaper and researched real Geiger Counter sounds as reference. I utilized isolation of different 
-                parts of white noise to be able to add the distinct grainy texture of the actual sound. 
-            </p>
-            <br>
-                Geiger Counter Sound:
-            </br>
-            <audio controls>
-                <source src="media/geigerCounter010.wav">
-            </audio>
-    </div>
+            <img src="logo.png" alt="logo" class="logo">
+
+            <nav>
+                <ul id="navlist">        
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About Me</a></li>
+                    <li><a href="./works.html">My Work</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <div style="padding-left:60px; padding-right: 60px;" class="projects">
+        <h1 style="padding-bottom:10px; padding-top:60px;">My Work</h1>
+            <p style="text-align:center; padding-bottom:20px;">These are the projects that I have worked on and/or completed in my time at Purdue Univeristy and the Envision Center.</p>
+        
+    
+            <h2 class="project" style="padding-bottom:10px;">Listening to Visuals (Spring 2022-Present)</h2>
+                <p style="padding-bottom:20px;">
+                    This project is about music generation based on chromatic visual input taken from an image or video.
+                    The two mediums are linked via emotion labels assigned to different RGB values as well as musical modes.
+                    I used a combination of MaxMSP, C, and basic JavaScript to complete the initial prototype of this project.
+                </p>
+
+                </figure>
+            <h2 class="project" style="padding-bottom:10px;">Sound Design for Animated Wolf Park Logo (February 2023-April 2023)</h2>
+                <p style="padding-bottom:20px;">
+                    From contact through a Purdue professor of mine I worked with a Lafayette conservation facility, Wolf Park, 
+                    to add sound to an animated logo that they had created to be used for media for the park. I utilized wolf 
+                    howls that were provided from the park and additional personal foley recordings taken on a Zoom H5 recorder 
+                    and cleaned/changed them in iZotope to remove unwanted sound. I added and edited the recordings to fit to the 
+                    animation in Reaper.
+                </p>
+                <div class="video" style="text-align:center;">
+                    <iframe src="https://www.youtube.com/embed/3jFx6E0Dvn4" width="560" height="315" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+                
+            <h2 class="project" style="padding-bottom:10px; padding-top:20px;">Senior Design: Solar Powered Backpack for the Unhoused (Janurary 2023-May 2023)</h2>
+                <p style="padding-bottom:20px;">
+                    For my senior design project in Multidisciplinary Engineering I collaborated with three other students
+                    to find a problem frame in the space of the unhoused to contribute an engineering solution to. The group 
+                    research and talked with local organizations and completed a simplistic solar power circuit design to add 
+                    into the backpack to charge digital devices. 
+                </p>
+            <h2 class="project" style="padding-bottom:10px">2D Game Audio (2021)</h2>
+                <p style="padding-bottom:20px;">
+                    At the Envision Center is where I learned a lot of the dialogue editing and sound design that I currently know.
+                    During the course of learning from another student there, I completed a number of sounds for a simplistic 
+                    2D platformer in Reaper. These included the player jumping, running over different surfaces, taking damage, 
+                    shooting, dieing, picking up health, enemy taking damage, enemy dieing, destroying a block, a block hitting 
+                    the ground, and the level end door to get to the next level. 
+                </p>
+                
+                    <br>
+                        Destroying a Block:
+                    </br>
+                    <audio controls>
+                        <source src="media/block_destroyed.wav">
+                    </audio>
+                    <br>
+                        Block Hitting Ground:
+                    </br>
+                    <audio controls>
+                        <source src="media/block_hitting_ground.wav">
+                    </audio>
+                    <br>
+                        Enemy Dieing:
+                    </br>
+                    <audio controls>
+                        <source src="media/enemy_dieing.wav">
+                    </audio>
+                    <br>
+                        Enemy Taking Damage:
+                    </br>
+                    <audio controls>
+                        <source src="media/enemy_taking_damage.wav">
+                    </audio>
+                    <br>
+                        Footstep on Grass:
+                    </br>
+                    <audio controls>
+                        <source src="media/footstep_grass.wav">
+                    </audio>
+                    <br>
+                        Footstep on Platform:
+                    </br>
+                    <audio controls>
+                        <source src="media/footstep_platforms.wav">
+                    </audio>
+                    <br>
+                        Footstep on Stone:
+                    </br>
+                    <audio controls>
+                        <source src="media/footstep_stone.wav">
+                    </audio>
+                    <br>
+                        Going Through the End Level Door:
+                    </br>
+                    <audio controls>
+                        <source src="media/level_end_door.wav">
+                    </audio>
+                    <br>
+                        Picking up Health:
+                    </br>
+                    <audio controls>
+                        <source src="media/picking_up_health.wav">
+                    </audio>
+                    <br>
+                        Player Dieing:
+                    </br>
+                    <audio controls>
+                        <source src="media/player_dieing.wav">
+                    </audio>
+                    <br>
+                        Player Jumping:
+                    </br>
+                    <audio controls>
+                        <source src="media/player_jump.wav">
+                    </audio>
+                    <br>
+                        Player Taking Damage:
+                    </br>
+                    <audio controls>
+                        <source src="media/player_taking_damage.wav">
+                    </audio>
+
+                
+            <h2 class="project" style="padding-bottom:10px; padding-top:20px;">Geiger Counter (Fall 2022)</h2>
+                <p style="padding-bottom:20px;">
+                    At the Envision Center, one of the projects that I worked on towards the end of my time working there was 
+                    updating the previous sound that they had for a project utilizing a Geiger Counter. The previous sound was
+                    noted to not be as accurate and did not sound as good as it could. To update this sound, I loaded the previous
+                    one into Reaper and researched real Geiger Counter sounds as reference. I utilized isolation of different 
+                    parts of white noise to be able to add the distinct grainy texture of the actual sound. 
+                </p>
+                <br>
+                    Geiger Counter Sound:
+                </br>
+                <audio controls style="padding-bottom:50px;">
+                    <source src="media/geigerCounter010.wav">
+                </audio>
+    </div>      
  
 </body>
 </html>

@@ -1,30 +1,99 @@
-* {
+ 
+body {
+    
     font-family: Helvetica, Arial, sans-serif;
-  }
+    font-weight: 400;
+}
+
+.contain {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+  background: none;
+  border: 10px double darkblue;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 23px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 19px;
+
+    position: realtive;
+}
+
+nav a {
+  color: rgba(0, 0, 139, 0.771);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a:hover {
+    color: darkblue;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: darkblue;
+
+    
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.project {
+  padding-bottom: 20px; 
+}
    
-   
-  h1 {
+h1 {
     color: rgb(0, 0, 0);
     text-align: center;
+    margin: 0px 0px 20px 0px;
   }
+
    
    
-  p, 
-  li {
+p {
     font-size: 18px;
-  }
+    
+}
    
-   
-  a {
-    text-decoration: none;
-  }
 
-  .header{
 
-    text-align: center;
-  }
-
-  audio {
+audio {
 
     margin: 5% 0;
-  }
+}
+
+
