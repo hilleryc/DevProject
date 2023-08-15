@@ -1,132 +1,57 @@
-* {
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-  body {
-    
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
-  }
+nav {
+  background-color: #EDC7B7;
+  color: #AC3B61
+}
 
-  .contain {
-    width: 80%;
-    margin: 0 auto;
-  }
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  header {
-    background: none;
-    border: 10px double darkblue;
-    margin: 8px 8px;
-  }
+nav li {
+  margin-left: 70px;
 
-  header::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+}
 
-  .logo {
-    float: left;
-    padding: 23px 0;
-  }
+nav a {
+  color: #AC3B61;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
 
-  nav {
-    float: right;
-  }
+nav a:hover {
+  color: #AC3B61;
+}
 
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 19px;
-
-    position: realtive;
-  }
-
-  nav a {
-    color: rgba(0, 0, 139, 0.771);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-
-  nav a:hover {
-    color: darkblue;
-  }
-
-  nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: darkblue;
-
-    
-    top: 0;
-    width: 0%;
-
-    transition: all ease-in-out 250ms;
-  }
-
-  nav a:hover::before {
-    width: 100%;
-  }
-   
-   
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
-   
-   
-  p, 
-  li {
-    font-size: 18px;
-  }
-   
-
-  .wholepage {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  .top {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    padding-top: 60px;
-
-  }
-
-  img {
-    float: left;
-  }
-
-  .text {
-    font-size: 12px;
-    padding-left: 50px;
-    padding-top: 100px;
-    line-height: 40pt;
-  }
-
-
-  .important {
-
-    text-align: center;
-  }
-
-  img {
-    float: left;
-  }
-  
-
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #AC3B61;
 
   
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+body {
+  background-color: #EDC7B7;
+}
+
+footer {
+  color: #AC3B61;
+}
+
+
+
+
+

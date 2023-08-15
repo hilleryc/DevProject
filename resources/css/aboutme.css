@@ -1,110 +1,51 @@
+nav {
+  background-color: #EDC7B7;
+  color: #AC3B61
+}
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  body {
-    
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
-  }
+nav li {
+  margin-left: 70px;
 
-  .contain {
-    width: 80%;
-    margin: 0 auto;
-  }
+}
 
-  header {
-    background: none;
-    border: 10px double darkblue;
-  }
+nav a {
+  color: #AC3B61;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
 
-  header::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+nav a:hover {
+  color: #AC3B61;
+}
 
-  .logo {
-    float: left;
-    padding: 23px 0;
-  }
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #AC3B61;
 
-  nav {
-    padding-top: 0px;
-    float: right;
-  }
-
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 19px;
-
-    position: realtive;
-  }
-
-  nav a {
-    color: rgba(0, 0, 139, 0.771);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-
-  nav a:hover {
-    color: darkblue;
-  }
-
-  nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: darkblue;
-
-    
-    top: 0;
-    width: 0%;
-
-    transition: all ease-in-out 250ms;
-  }
-
-  nav a:hover::before {
-    width: 100%;
-  }
-   
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
-   
-   
-  p, 
-  li {
-    font-size: 18px;
-  }
-   
-   
-  a {
-    text-decoration: none;
-  }
-
-  .top{
-    text-align: center;
-  }
   
-  .about-me{
-  
-    font-size: 20px;
-    text-align:justify;
-  }
-  
-  .title{
-    font-weight: bold;
-  }
+  top: 0;
+  width: 0%;
 
-  .wholepage {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+body {
+  background-color: #EDC7B7;
+}
+
+footer {
+  color: #AC3B61;
+}

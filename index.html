@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0fe6d0b39c.js" crossorigin="anonymous"></script>
     <title>Caitlin Hillery</title>
 </head>
 <body>
 
-    <header>
-        <div class="contain">
-
-            <img src="logo.png" alt="logo" class="logo">
-
-            <nav>
-                <ul id="navlist">        
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./aboutme.html">About Me</a></li>
-                    <li><a href="./works.html">My Work</a></li>
-                </ul>
-            </nav>
-
+    <nav class="navbar navbar-expand-lg" >
+        <img class="navbar-brand" src="logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./works.html">My Work</a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </nav>
 
-    <div class="wholepage">
-
+    <div class="container" style="color:#000000;">
+        <h1 style="text-align:center">Caitlin Hillery</h1>
         
-        <!-- <h1 style="padding-top:60px; padding-bottom:20px; text-align:center;">Caitlin Hillery</h1> -->
+        <p>My name is Caitlin Hillery and I am a recent graduate from Purdue University in Acoustical Engineering with a minor
+            in Electrical and Computer Engineering. Through school and part-time work I have experience in sound,
+            acoustical, and basic electrical design. Two projects that I worked on in school and work at the
+            Purdue Envision Center initialized my interest in sound synthesis and procedural audio and is 
+            something I hope to continue working with.
 
-        <div class="top" ></div>
-            <img src="media/headerpic2.png" width="500px">
-            <div class="text">
-                <h1>
-                    My name is Caitlin Hillery and I am a recent graduate from Purdue University in Acoustical Engineering with a minor
-                    in Electrical and Computer Engineering. Through school and part-time work I have experience in sound,
-                    acoustical, and basic electrical design. Two projects that I worked on in school and work at the
-                    Purdue Envision Center initialized my interest in sound synthesis and procedural audio and is 
-                    something I hope to continue working with.
-                </h1>
-            </div>
-            
-        </div>
+        <p><a href="./media/CaitlinHillery.pdf">This</a> is my current resume.</p>
         
-        <div class="important" >
-
-        </div>
-
     </div>
+
  
+    <footer class="footer mt-auto pt-2 pb-1" style="color: #AC3B61;">
+
+        <div class="container" style="text-align:center; color: #AC3B61;">
+            <a href="mailto:caitlinhillery@gmail.com" class="text-white me-4">
+                <span style="color: #AC3B61; font-size: 30px;">
+                    <i class="fa-solid fa-envelope"></i>
+                </span>
+            </a>
+            <a href="https://www.linkedin.com/in/caitlin-hillery-952399220/" class="text-white me-4">
+                <span style="color: #AC3B61; font-size: 30px;">
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+            </a>
+            <a href="https://github.com/hilleryc" class="text-white me-4">
+                <span style="color: #AC3B61; font-size: 30px;">
+                    <i class="fa-brands fa-github"></i>
+                </span>
+            </a>
+        </div>
+
+        <div class="container mt-1" style="font-family: 'Times New Roman', sans-serif; color: #AC3B61; text-align: center">
+            <span>© Caitlin Hillery 2023</span>
+        </div>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
