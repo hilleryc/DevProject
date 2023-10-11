@@ -44,7 +44,6 @@ nav a:hover::before {
 
 body {
   background-color: #EDC7B7;
-  height: calc(100vh - 100px);
 }
 
 footer {
